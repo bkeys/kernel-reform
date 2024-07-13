@@ -976,6 +976,19 @@ Source4002: gating.yaml
 Patch1: patch-%{patchversion}-redhat.patch
 %endif
 
+Patch1011:0011-dw-mipi-dsi-phy-stop-wait-time.patch
+Patch1012:0012-innolux-n125hce-gn1-timing-tweaks.patch
+Patch1013:0013-meson-viu-hold-fifo-lines.patch
+Patch1014:0014-meson-venc-sync.patch.patch
+Patch1015:0015-meson-dw-mipi-dsi-sync-invert.patch
+Patch1016:0016-sn65dsi86-burst-mode-support.patch
+Patch1017:0017-hdmi-disable-broken-scdc.patch
+Patch1018:0018-sn65dsi86-never-turn-off.patch
+Patch1020:0020-LOCAL-ALSA-Assign-internal-PCM-chmap-ELD-IEC958-kctl.patch
+Patch1021:0021-HACK-of-partial-revert-of-fdt.c-changes.patch
+Patch1022:0022-add-bt-and-eth-resets.patch
+Patch1023:0023-sdio-pullups.patch
+
 # empty final patch to facilitate testing of kernel patches
 Patch999999: linux-kernel-test.patch
 
